@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0F8854F8-A6B5-4863-90A2-5E1EA6F80CEA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{87F570D4-7621-4653-9C4A-A6566F8DA664}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "LearningDotNetCore.Web", "src\LearningDotNetCore.Web\LearningDotNetCore.Web.xproj", "{780EFEF4-CAB0-447A-B8D3-4BD43E22FC2F}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "LearningDotNetCore.Domain", "src\LearningDotNetCore.Domain\LearningDotNetCore.Domain.xproj", "{DD3E2896-AD2F-42AD-97D0-1D163999856E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{780EFEF4-CAB0-447A-B8D3-4BD43E22FC2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{780EFEF4-CAB0-447A-B8D3-4BD43E22FC2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{780EFEF4-CAB0-447A-B8D3-4BD43E22FC2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{780EFEF4-CAB0-447A-B8D3-4BD43E22FC2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD3E2896-AD2F-42AD-97D0-1D163999856E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD3E2896-AD2F-42AD-97D0-1D163999856E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD3E2896-AD2F-42AD-97D0-1D163999856E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD3E2896-AD2F-42AD-97D0-1D163999856E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{780EFEF4-CAB0-447A-B8D3-4BD43E22FC2F} = {0F8854F8-A6B5-4863-90A2-5E1EA6F80CEA}
+		{DD3E2896-AD2F-42AD-97D0-1D163999856E} = {0F8854F8-A6B5-4863-90A2-5E1EA6F80CEA}
+	EndGlobalSection
+EndGlobal
